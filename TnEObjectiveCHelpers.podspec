@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Sachith Kadamba" => "sachithkadamba@gmail.com" }
   s.source       = { :git => "https://github.com/sachithkadamba/TnEObjectiveCHelpers.git"}
   s.platform     = :ios, '7.0'
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'TnEObjectiveCHelpers/TnEObjectiveCHelpers/Classes', 'Classes/**/*.{h,m}'
 
 #  s.requires_arc = true
 end
