@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sachithkadamba/TnEObjectiveCHelpers.git"} 
   s.ios.deployment_target = '7.0'
   s.platform     = :ios, '7.0'
-  s.source_files = 'TnEObjectiveCHelpers/TnEObjectiveCHelpers/Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
 
 
 #  s.requires_arc = true
