@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.platform     = :ios, '7.0'
   s.source_files = 'TnEObjectiveCHelpers/TnEObjectiveCHelpers/Classes', 'Classes/**/*.{h,m}'
-  spec.framework        = 'SystemConfiguration'
 
 
 #  s.requires_arc = true
