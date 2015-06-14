@@ -14,7 +14,7 @@
 		FE6459BD1B2C8C61004F8674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6459BC1B2C8C61004F8674 /* Images.xcassets */; };
 		FE6459C01B2C8C61004F8674 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6459BE1B2C8C61004F8674 /* LaunchScreen.xib */; };
 		FE6459CC1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6459CB1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m */; };
-		FE6459D81B2C94B5004F8674 /* UIColor+TnE.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6459D71B2C94B5004F8674 /* UIColor+TnE.m */; };
+		FE6459E21B2D3ED0004F8674 /* UIColor+TnE.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6459E11B2D3ED0004F8674 /* UIColor+TnE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		FE6459C51B2C8C61004F8674 /* TnEObjectiveCHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TnEObjectiveCHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6459CA1B2C8C61004F8674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE6459CB1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TnEObjectiveCHelpersTests.m; sourceTree = "<group>"; };
-		FE6459D61B2C94B5004F8674 /* UIColor+TnE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TnE.h"; sourceTree = "<group>"; };
-		FE6459D71B2C94B5004F8674 /* UIColor+TnE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TnE.m"; sourceTree = "<group>"; };
+		FE6459E01B2D3ED0004F8674 /* UIColor+TnE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TnE.h"; sourceTree = "<group>"; };
+		FE6459E11B2D3ED0004F8674 /* UIColor+TnE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TnE.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		FE6459A31B2C8C61004F8674 = {
 			isa = PBXGroup;
 			children = (
-				FE6459D51B2C92D6004F8674 /* TnEHelpers */,
+				FE6459DF1B2D3ED0004F8674 /* Classes */,
 				FE6459AE1B2C8C61004F8674 /* TnEObjectiveCHelpers */,
 				FE6459C81B2C8C61004F8674 /* TnEObjectiveCHelpersTests */,
 				FE6459AD1B2C8C61004F8674 /* Products */,
@@ -123,13 +123,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FE6459D51B2C92D6004F8674 /* TnEHelpers */ = {
+		FE6459DF1B2D3ED0004F8674 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FE6459D61B2C94B5004F8674 /* UIColor+TnE.h */,
-				FE6459D71B2C94B5004F8674 /* UIColor+TnE.m */,
+				FE6459E01B2D3ED0004F8674 /* UIColor+TnE.h */,
+				FE6459E11B2D3ED0004F8674 /* UIColor+TnE.m */,
 			);
-			path = TnEHelpers;
+			name = Classes;
+			path = TnEObjectiveCHelpers/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +236,7 @@
 				FE6459B81B2C8C61004F8674 /* ViewController.m in Sources */,
 				FE6459B51B2C8C61004F8674 /* AppDelegate.m in Sources */,
 				FE6459B21B2C8C61004F8674 /* main.m in Sources */,
-				FE6459D81B2C94B5004F8674 /* UIColor+TnE.m in Sources */,
+				FE6459E21B2D3ED0004F8674 /* UIColor+TnE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
