@@ -13,5 +13,4 @@
 + (UIColor *)colorWithHexString:(NSString *)hexToConvert;
 + (UIColor *)colorWithHexString:(NSString *)hexToConvert alpha:(CGFloat)opacity;
 
-
 @end

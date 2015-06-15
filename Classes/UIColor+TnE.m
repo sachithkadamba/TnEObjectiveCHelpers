@@ -29,7 +29,8 @@
     NSString *colorString = [[[hexToConvert stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] stringByTrimmingCharactersInSet:[NSCharacterSet symbolCharacterSet]] uppercaseString];
     
     if ([colorString hasPrefix:@"0X"]) colorString = [colorString substringFromIndex:2];
-    
+    if ([colorString hasPrefix:@"#"]) colorString = [colorString substringFromIndex:1];
+
     NSScanner *scanner = [NSScanner scannerWithString:colorString];
     unsigned hexNum;
     if (![scanner scanHexInt:&hexNum]) return nil;

@@ -15,6 +15,7 @@
 		FE6459C01B2C8C61004F8674 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE6459BE1B2C8C61004F8674 /* LaunchScreen.xib */; };
 		FE6459CC1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6459CB1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m */; };
 		FE6459E61B2D4C04004F8674 /* UIColor+TnE.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6459E51B2D4C04004F8674 /* UIColor+TnE.m */; };
+		FED714981B2E971A0023BD3A /* NSString+TnE.m in Sources */ = {isa = PBXBuildFile; fileRef = FED714971B2E971A0023BD3A /* NSString+TnE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		FE6459CB1B2C8C61004F8674 /* TnEObjectiveCHelpersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TnEObjectiveCHelpersTests.m; sourceTree = "<group>"; };
 		FE6459E41B2D4C04004F8674 /* UIColor+TnE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TnE.h"; sourceTree = "<group>"; };
 		FE6459E51B2D4C04004F8674 /* UIColor+TnE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TnE.m"; sourceTree = "<group>"; };
+		FED714961B2E971A0023BD3A /* NSString+TnE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TnE.h"; sourceTree = "<group>"; };
+		FED714971B2E971A0023BD3A /* NSString+TnE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TnE.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				FE6459E41B2D4C04004F8674 /* UIColor+TnE.h */,
 				FE6459E51B2D4C04004F8674 /* UIColor+TnE.m */,
+				FED714961B2E971A0023BD3A /* NSString+TnE.h */,
+				FED714971B2E971A0023BD3A /* NSString+TnE.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -235,6 +240,7 @@
 			files = (
 				FE6459B81B2C8C61004F8674 /* ViewController.m in Sources */,
 				FE6459B51B2C8C61004F8674 /* AppDelegate.m in Sources */,
+				FED714981B2E971A0023BD3A /* NSString+TnE.m in Sources */,
 				FE6459B21B2C8C61004F8674 /* main.m in Sources */,
 				FE6459E61B2D4C04004F8674 /* UIColor+TnE.m in Sources */,
 			);
@@ -433,6 +439,7 @@
 				FE6459D11B2C8C61004F8674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6459D21B2C8C61004F8674 /* Build configuration list for PBXNativeTarget "TnEObjectiveCHelpersTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +448,7 @@
 				FE6459D41B2C8C61004F8674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
